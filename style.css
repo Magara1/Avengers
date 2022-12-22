@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+/******  Header *****/
+header{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    top: 50%;
+    margin:20px;
+}
+
+.logo-text{
+    float: left;
+    
+}
+
+.liens-text{
+    float: right;
+    margin-right: 30px;
+}
+
+/******  article *****/
+
+article{
+    position:relative;
+    background-image: url(bg.jpg);
+    background-position:0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    padding-top: 350px;
+    padding-left: 120px;
+    text-align: left;
+}
+
+article h1{
+    font-size: 80px;
+}
+
+article p{
+    width: 40%;
+}
+
+/******  footer *****/
+
+footer{
+    position: relative;
+    background-color: rgb(231, 218, 218);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+footer h4{
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+    text-decoration: underline;
+
+}
+
+footer nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(16, 12, 12);
+    text-transform: capitalize;
+    top: 50%;
+    margin:20px;
+    text-align: center;
+    font-weight: bold;
+}
+
